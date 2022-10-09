@@ -1,0 +1,30 @@
+
+// #include <Arduino.h>
+
+// #include "PinDefinitionsAndMore.h" // Define macros for input and output pin etc.
+// #include <IRremote.hpp>
+
+// #define NUMBER_OF_REPEATS 3U
+
+
+
+
+// IRsend irsend;
+
+// void setup() {
+//     Serial.begin(9600);
+//     pinMode(3, OUTPUT);
+//     IrSender.begin(); // Start with IR_SEND_PIN as send pin and enable feedback LED at default feedback LED pin
+//     Serial.print(F("Ready to send IR signals at pin "));
+//     Serial.println(IR_SEND_PIN);
+// }
+
+// void loop() {
+
+//     delay(2000);
+//     irsend.sendPronto(F("0000 006D 000B 0000 0021 0022 0023 0022 0021 0024 0021 0022 0044 0024 0021 0044 0044 0024 0021 0044 0021 0022 0021 0024 0044 06C3 "), /* NEC repeat pattern*/
+//     NUMBER_OF_REPEATS);
+//     delay(2000);
+
+    
+// }
